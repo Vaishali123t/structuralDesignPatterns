@@ -1,0 +1,5 @@
+
+We have various data formats coming from our service. Now we need to analyse the data from these services. To analyse this data we have to use a third party tool which only takes in data in JSON format now we need to call the analyse method of this class. How to tackle this?
+
+
+We will be using an adapter pattern to adapt from our outputs to JSON format. We will try to make this extensible  so that any form of data could be converted to JSON without violating SOLID principles.
