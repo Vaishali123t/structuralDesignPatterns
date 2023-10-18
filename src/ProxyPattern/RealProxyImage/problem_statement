@@ -1,0 +1,1 @@
+We have to display the images to for some click but the images are high resolution images so we don't want to load them unless and until they are required. So, we want to lazy load the images.
