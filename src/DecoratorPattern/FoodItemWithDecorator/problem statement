@@ -1,0 +1,4 @@
+
+Suppose a client orders a pizza. Now with pizza various customizations can be added right, for eg pizza with sauce, pizza with toppings etc and there could be various combinations for the same. If we start creating subclassses for pizzaWithSauce, pizzaWithToppings, pizzaWithSauceAndToppings etc, we would end up creating a lot of subclasses which is not ideal. Also, note that we need to make this extensible i.e. if any other food item comes which has the same decorations, then we should be able to do that easily. How to tackle this situation?
+
+Ans. Use a decorator pattern.
