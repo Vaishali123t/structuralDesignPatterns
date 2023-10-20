@@ -1,0 +1,3 @@
+We have a system Uber and in Uber we have 2 classes called Uber eats and Uber Rides. Now, both these systems needs to have navigation. But in navigation, we are giving 2 choices i.e. google maps and apple maps. How do we structure the classes?
+
+Ans. Using a bridge pattern, we make sure that we are decoupling the Uber and Navigation part. These both can be updated independently and the abstraction class will be calling the implementation class.
