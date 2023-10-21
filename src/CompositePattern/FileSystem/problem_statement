@@ -1,0 +1,15 @@
+
+
+                    Node
+                    +getSize
+                    +dateMofified
+
+                /                   \
+
+        Directory                    File
+        List<Node> node
+
+        getSize                       getSize
+        dateMofified                  dateMofified
+
+directory has a node
